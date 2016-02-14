@@ -1,0 +1,14 @@
+{
+  "name": "hexfashion_ionic",
+  "version": "0.0.1-development",
+  "description": "ionic verison of hexfashion",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@jiahaok",
+  "license": "MIT",
+  "dependencies": {
+    "bower": "^1.7.7"
+  }
+}

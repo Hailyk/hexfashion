@@ -5,6 +5,7 @@ logs
 npm-debug.log*
 
 # Runtime data
+/Website/bower_components
 pids
 *.pid
 *.seed
@@ -100,7 +101,6 @@ local.properties
 proguard/
 
 # Log Files
-*.log
 
 # Android Studio Navigation editor temp files
 .navigation/

@@ -1,0 +1,24 @@
+{
+  "name": "hexfashion_website",
+  "description": "hexfashion website",
+  "main": "server.js",
+  "authors": [
+    "@jiahaok"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/davidgilman/hexfashion",
+  "moduleType": [
+    "node"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
