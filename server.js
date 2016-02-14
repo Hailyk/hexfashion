@@ -21,6 +21,6 @@ app.get('/search/colorvalue=000000', function (req, res){
   res.sendFile(path.join(__dirname+'/black.html'));
 });
 
-app.listen(process.env.PORT || port)
+app.listen(port)
 
-console.log("server running on "+port+" or "+process.env.PORT);
+console.log("server running on "+port);
