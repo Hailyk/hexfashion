@@ -3,7 +3,7 @@
 var express = require('express');
 var app = express();
 var path = require('path');
-var port = 80;
+var port = $PORT;
 
 app.use(express.static(path.join(__dirname+'/static/')));
 
