@@ -15,14 +15,13 @@
 		android:layout_centerInParent="true"
 		android:layout_marginBottom="16dip"
 		android:layout_marginRight="16dip"
-		android:text="Shop"
 		android:layout_alignParentBottom="true">
 
 		<at.markushi.ui.CircleButton
-			android:layout_width="64dip"
-			android:layout_height="64dip"
+			android:layout_width="82dip"
+			android:layout_height="82dip"
 			app:cb_color="#66FFFFFF"
-			app:cb_pressedRingWidth="8dip" />
+			app:cb_pressedRingWidth="5dip" />
 
 	</FrameLayout>
 
