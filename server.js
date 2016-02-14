@@ -3,7 +3,7 @@
 var express = require('express');
 var app = express();
 var path = require('path');
-var port = 80;
+var port = 3000;
 
 app.use(express.static(path.join(__dirname+'/static/')));
 
@@ -21,6 +21,6 @@ app.get('/search/colorvalue=000000', function (req, res){
   res.sendFile(path.join(__dirname+'/black.html'));
 });
 
-app.listen(process.env.PORT || 80)
+app.listen(process.env.PORT || port)
 
-console.log("server running on "+port);
+console.log("server running on "+port+" or "+process.env.PORT);
