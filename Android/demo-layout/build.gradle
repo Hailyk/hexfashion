@@ -1,6 +1,8 @@
 apply plugin: 'com.android.application'
 
 repositories {
+    mavenCentral()
+    mavenLocal()
     maven {
         url "https://s3.amazonaws.com/repo.commonsware.com"
     }
@@ -9,6 +11,7 @@ repositories {
 dependencies {
     debugCompile project(':camera')
     releaseCompile 'com.commonsware.cwac:camera:0.7.+'
+    compile 'com.github.markushi:circlebutton:1.1'
 }
 
 android {
