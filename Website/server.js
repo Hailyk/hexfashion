@@ -8,6 +8,9 @@ var port = 3000;
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname+'/index.html'));
 });
+app.get('/search/colorvalue: #*', function (req, res){
+  
+});
 
 app.listen(port);
 
