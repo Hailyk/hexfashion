@@ -1,6 +1,6 @@
 {
   "name": "hexfashion_website",
-  "version": "0.0.1-development",
+  "version": "0.0.1-beta",
   "description": "hexfashion website",
   "main": "server.js",
   "scripts": {
